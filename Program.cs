@@ -194,7 +194,7 @@ namespace Complex_Number_Form_Converter
             if (changedYourMind == "1")
             {
                 Console.WriteLine("Polar form: Z = " + radiusComponent + "(cos(" + angleComponent + ") + i sin(" + angleComponent + "))");
-                Console.WriteLine("Exponential form: Z = " + radiusComponent + "e^" + angleComponent + "");
+                Console.WriteLine("Exponential form: Z = " + radiusComponent + "e^" + angleComponent + "i");
             }
             else
             {
@@ -230,7 +230,7 @@ namespace Complex_Number_Form_Converter
             Console.Clear();
             if (changedYourMind == "1")
             {
-                Console.WriteLine("Exponential form: Z = " + radiusComponent + "e^" + angleComponent + "");
+                Console.WriteLine("Exponential form: Z = " + radiusComponent + "e^" + angleComponent + "i");
                 Console.WriteLine("Polar form: Z = " + radiusComponent + "(cos(" + angleComponent + ") + i sin(" + angleComponent + "))");
             }
             else
@@ -280,7 +280,7 @@ namespace Complex_Number_Form_Converter
             }
             double distance = Math.Sqrt(Math.Pow(realComponent, 2) + Math.Pow(imaginaryComponent, 2));
             Console.WriteLine("Rectangular form: Z = (" + realComponent + ") + (" + imaginaryComponent + ")i");
-            Console.WriteLine("Exponential form: Z = " + distance + "e^" + angle + "");
+            Console.WriteLine("Exponential form: Z = " + distance + "e^" + angle + "i");
             Console.ReadLine();
         }
 
@@ -326,7 +326,7 @@ namespace Complex_Number_Form_Converter
             {
                 return;
             }
-            Console.WriteLine("Exponential form: Z = " + radiusComponent + "e^" + angleComponent + "");
+            Console.WriteLine("Exponential form: Z = " + radiusComponent + "e^" + angleComponent + "i");
             Console.WriteLine("Rectangular form: Z = (" + real + ") + (" + imaginary + ")i");
             Console.ReadLine();
         }
